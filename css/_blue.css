@@ -1,0 +1,37 @@
+.blue-parent{
+  width:60rem;
+  height:40rem;
+}
+.blue-gallery{
+  margin:3rem;
+  position:relative;
+}
+.blue{
+  position:absolute;
+  height:20rem;
+  box-shadow: 0 1.5rem 1rem rgba(0,0,0,0.4);
+  transition: all 0.3s;
+  outline-offset:1rem;
+}
+.blue:hover{
+  transform:scale(1.3);
+  box-shadow: 0 3rem 1 rem rgba(0,0,0,0.4);
+  outline: 1rem solid lightskyblue;
+  z-index: 2;
+}
+.blue-gallery:hover .blue:not(:hover){
+  transform: scale(0.8);
+  opacity:0.3;
+}
+.blue-1{
+  top:10rem;
+  left:15%;
+}
+.blue-2{
+  top:2rem;
+  right:15%;
+}
+.blue-3{
+  top:-4rem;
+  left:0;
+}
