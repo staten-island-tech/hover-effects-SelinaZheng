@@ -1,0 +1,35 @@
+.head1-gallery{
+  display:flex;
+  content:"";
+  height:10vh;
+  margin-left:2rem;
+  position:relative;
+}
+.banner {
+  align-items:stretch;
+  justify-content: start;
+  width: 50vw;
+  position: absolute;
+  margin-top: 0rem;
+  margin-left: -55rem;
+  transform: rotate(-30deg);
+  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.8);
+}
+.banner{
+  background: #000;
+  color: #fff;
+  text-decoration:none;
+  font-family: arial, sans-serif;
+  text-transform:uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 10rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  transition: 0.5s;
+}
+.banner:hover {
+  background: #2098D1;
+  color: #fff;
+}
+

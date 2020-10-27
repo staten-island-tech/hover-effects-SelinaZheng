@@ -1,12 +1,9 @@
-@import url("_header1.css");
-@import url("_header2.css");
-@import url("_header3.css");
-@import url("_header4.css");
-@import url("_header5.css");
+@import url("_btn.css");
+@import url("_building.css");
+@import url("_text-effect.css");
+@import url("_blue.css");
+@import url("_explore.css");
 html,
-*{
-  margin:0;
-}
 body {
   font-size:62.5%;
   padding:0;
