@@ -2,12 +2,13 @@
 @import url("_btn.css");
 @import url("_circle.css");
 @import url("_cs.css");
-@import url("_header5.css");
+@import url("_color.css");
 html,
 *{
   margin:0;
 }
 body {
+  background-color:#f2f2f2;
   font-size:62.5%;
   padding:0;
   margin:0;
