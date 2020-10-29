@@ -1,7 +1,7 @@
-@import url("_header1.css");
-@import url("_header2.css");
-@import url("_header3.css");
-@import url("_header4.css");
+@import url("_banner.css");
+@import url("_btn.css");
+@import url("_circle.css");
+@import url("_cs.css");
 @import url("_header5.css");
 html,
 *{

@@ -1,0 +1,22 @@
+.hover4{
+  top:100rem;
+}
+.image1{
+  height:10vh ;
+  clip-path:circle();
+  margin:5rem;
+  transition: all 0.5s;
+}
+.image1:hover{
+  border-top:15px solid rgb(150, 117, 243);
+  border-right: 15px solid rgba(137, 43, 226, 0.897);
+  border-bottom: 15px solid rgb(146, 0, 146);
+  border-left: 15px solid rgba(128, 0, 128, 0.534);
+  padding:0.2rem;
+  height:50vh;
+  transform:rotate(360deg);
+  margin-bottom:2rem;
+}
+.image1:hover::after{
+  opacity:2;
+}
