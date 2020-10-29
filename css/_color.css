@@ -1,9 +1,5 @@
 .colorbox{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  display:inline;
 }
 .colorcase{
   height:50vh;
@@ -74,5 +70,8 @@
   background-color:inherit;
 }
 .color-purple:hover body{
+  background-color:inherit;
+}
+.color body{
   background-color:inherit;
 }
